@@ -1,0 +1,11 @@
+Def:
+Data structure is the way of storing & manipulating the data in a particular format.
+#The concept of data structure can be implemented in any programming language because it is language independent.
+#Types of data structures:
+There are two types of data structures as linear & non-linear.
+-If the data gets accessed in the linear way then it is considered as linear data structure.
+e.g: linked list,stack,queue
+-Non linear data structures:
+If the data gets accessed in a non linear format then it is considered as non-linear data structure.
+e.g: Tree, Graph
+

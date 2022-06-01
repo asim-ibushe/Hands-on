@@ -1,0 +1,6 @@
+//problems on digits
+In this topic we accept no from user
+and we apply our logic on the digits of that number
+In the previous topic we accept the number and apply the logic on that accepted number directly.
+In this topic we consider decimal numbering system.
+In the problems on digits we have to break our number into separate digits.

@@ -1,0 +1,72 @@
+/*
+    Binary to Hexadecimal conversion
+ 
+    Integer size = 4 bytes      ie 32 bits
+ 
+    Hexadecimal base : 16
+    Hexadecimal range is 0  to 15
+Decimal	Binary	Hex
+0	0000	0
+1	0001	1
+2	0010	2
+3	0011	3
+4	0100	4
+5	0101	5
+6	0110	6
+7	0111	7
+8	1000	8
+9	1001	9
+10	1010	a
+11	1011	b
+12	1100	c
+13	1101	d
+14	1110	e
+15	1111	f
+----------------
+8bit=1byte
+4bit=1nibble
+----------------
+Number=86
+6	86
+5	5
+	0
+0000 0000 0000 0000 0000 0000 0101 0110
+
+Hexadecimal: 0X000000056
+
+*/
+/*
+Mask Design:
+As we want to check status of fourth bit,
+create the mask whose fourth bit is on
+0000 0000 0000 0000 0000 0000 0000 1000
+Hexadecimal mask: 0X00000008
+
+Mask for 25bit ON or OFF:
+0000 0001 0000 0000 0000 0000 0000 0000
+Hexadecimal mask: 0X01000000
+
+Mask for 6,7 & 12 bit ON or OFF:
+0000 0000 0000 0000 0000 1000 0110 0000
+Hexadecimal mask: 0X00000860
+
+15th bit is on or off
+0000 0000 0000 0000 0100 0000 0000 0000
+0X00001000
+
+5th & 18th bit is on or off
+0000 0000 0000 0010 0000 0000 0001 0000
+0X00020010
+
+7th & 15th & 21st , 28th bit
+0000 1000 0001 0000 0100 0000 0100 0000
+mask=0X08104040
+
+7th 8th 9th
+0000 0000 0000 0000 0000 0001 1100 0000
+mask=0X000001C0
+
+First and last bit
+1000 0000 0000 0000 0000 0000 0000 0001
+mask=0X80000001
+

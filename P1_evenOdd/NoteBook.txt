@@ -1,0 +1,58 @@
+In any type of programming language to store some data we have to create variable.
+variable is the placeholder for the  value .Depends on the value that we want to store we can use its appropriate datatype.
+In almost every programming language some datatypes are provided by the language designer directly which are called as primitive data types
+Some common primitive data types are
+CHAR (1 Byte)
+INT (4 Byte)
+FLOAt (4 Byte)
+double (8 Byte)
+char ch ='A';
+int i=21;
+float f=3.14
+double d=6.14272
+
+functional Approach:	In this batch we strictly follow the functional approach means every logic is separately written inside the function.
+Due to the functional approach our logic is reusable means we can call the same function again.(shop)
+Every user defined function should be written inside our Helper.c module or file.
+To define the function we have to follow the below syntax:
+
+return_type function_name(parameter list){	logic	}
+
+In the above format we have to define the function .return_type specify the datatype that our function is going to return 
+function_name: It is the name of the function that we want to use while calling that function.
+parameters_list: this are the parameters that we want to pass while calling the function.
+logic: This is the function body which contains the actual logic of our function.
+
+** Good programming Strategies **
+1. Every Project should be divided into three files. Helper Header & main
+2. Helper file should contains the Business logic of our Application.
+3. Name of Every function should be meaningfull.
+4. while writing the function name we have to follow Hungarian notation.(In this type of notation if our function name contains multiple words then the first letter of each word should be capital e.g ChkEvenOdd())
+5. above the definition of each function there should be a function header which contains name of the function input, output, Description, Author, Date.
+6. There should not be any user interaction from the helper funtion as we want to reuse that function(From the Helper function don't accept any Input and dont display any thing on console)
+7. Each Helper function should validate the input before performing any operation.
+8. Before the name of any variable use its first letter of Data type as a prefix.(By writing the prefix we get basic understanding of variable int Ivalue=0; float Fresult=0.0; double Dvalue=0.0; char Cdivision='\0'; )
+9.Initialize every local and global variable with some value of Default value to avoid the drawback of garbage values(int iValue;Not Allowed	int iValue=0; Allowed)
+
+void DisplayNumber()
+{
+printf("1\n");
+printf("2\n");
+printf("3\n");
+printf("4\n");
+printf("5\n");
+}
+void DisplayNumberX()
+{
+int iCnt=0;
+for(iCnt=1;iCnt<=5;iCnt++)
+{
+printf("%d \n",iCnt);
+}
+}
+We have two function one is using sequence and other is using iteration
+As we want to display the number from 1 to 5 we use a for loop.
+for loop contains four different parts as:	1-initialization of counter	2-condition of the loop	3-Increment or decrement of loop counter
+4-loop body.
+Dry Run of  =For loop works in a manner 1->(2->4->3)
+

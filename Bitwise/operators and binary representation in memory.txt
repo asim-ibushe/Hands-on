@@ -1,0 +1,65 @@
+//Problems on Bitwise Operators
+/*
+1.In this topic we deal with the bits of the given number.
+2.In this topic we have to use the bitwise operators to solve any of the problem statements
+3.The concept of bitwise operators is exactly same in any programming language c, cpp, java, python.
+All the above mentioned programming languages uses same set of bitwise operators.
+Expression EG:-
+(no1	Operand1
+ +	Operator 
+no2)	Operand2
+Expression is considered as a statement which contains set of operator and operands.
+operators are considered as a symbol which decides the operation that we need to perform.
+Depends on the behaviour of the operator .Types of operator As=
+Arithmetic Operator(+-*/%)
+Logical Operator(&& ||)
+Assignment Operator(==)
+Comparision Operator(<>)
+ShortHand Operator
+Bitwise Operator(AND OR XOR NOT LEFTSHIFT RIGHTSHIFT)
+***bitwise operator are classified as
+  Operands Req
+& binary
+| binary
+^ binary
+~ unary
+<< binary
+>> binary
+
+Bit1	Bit2	&	|	^
+0	0	0	0	0
+0	1	0	1	1
+1	0	0	1	1
+1	1	1	1	0
+
+Bit	~
+1	0
+0	1
+
+#conversion of decimal to binary 
+POWER OF 2  (8 7 6  5  4 3 2 1 0)
+	    128 64 32 16 8 4 2 1
+0	86		
+1	43
+1	21
+0	10
+1	5
+0	2
+	1->int no=86;
+Memory Layout=(00000000 00000000 00000000 0   1  0  1  0 1 1 0)Binary
+					  128 64 32 16 8 4 2 1
+CONSIDER THE ABOVE CONVERSION FROM BINARY TO DECIMAL=64+16+4+2=86
+
+PROBLEM 2:
+NUM=121       
+1	121
+0	60
+0	30
+1	15
+1	7
+1	3
+1	1
+	0
+		128 64 32 16 8 4 2 1
+		(0  1  1  1  1 0 0 1)=64+32+16+8+1=121
+*/

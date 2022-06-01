@@ -1,0 +1,22 @@
+Consider the below program which contains character & integer.
+we have to consider the internal representation of that character & integer.
+#include<stdio.h>
+int main()
+{
+char ch='A';//65 ascii value
+
+//128 64 32 16 8 4 2 1
+// 0   1  0  0 0 0 0 1 //Actual character binary
+int no=10;
+//
+//0 0 0 0 0 0 0 0.0 0 0 0 0 0 0 0.0 0 0 0 0 0 0 0.0 0 0 0 1 0 1 0 //binary representation of Decimal 10
+
+return 0;
+}
+
+According to above diagram we conclude that character gets one byte of memory & when we consider its internal representation it's ascii value gets consider.
+At the time of storing that character into the memory its binary value of ascii gets considered.
+The concept of ascii value is not applicable for the other data types like integer float & double.
+while solving the problem statements based on the character & strings there is no need to consider its ascii value.
+Instead of using that ascii value we can use that specific character in single quotes
+

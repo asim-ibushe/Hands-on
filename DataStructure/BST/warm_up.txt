@@ -1,0 +1,14 @@
+//Binary Search Tree(bst)
+
+Tree is the non-linear data structure where we access the elements of the tree in non-linear fashion.
+Binary tree is a type of tree where each node has atmost two child nodes.
+BST is a type of tree which is used for the searching purpose.
+
+##Practical implementation of binary search tree
+
+struct node
+{
+int data;
+struct node* Lchild;
+struct node* Rchild;
+}

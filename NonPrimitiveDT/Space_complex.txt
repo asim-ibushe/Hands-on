@@ -1,0 +1,19 @@
+//Space complexity
+/*
+space complexity is depends on the dynamic memory allocation performed by the application.
+if our application deals with N and inside the application if we allocate the memory for n elements then the space complexity of that application is O(N).
+space complexity is not related with the no of bytes that we allocate but it is related with the no of elements that we want to allocate.
+#steps to solve the n numbers application
+START
+inside main...
+1.Accept the count of array numbers from user
+2.allocate the memory for that N numbers (Dynamically)
+3.accept the values in that allocated memory
+4.Helper Function: pass the address and the size to the function
+5.Actual Logic of Program: function will perform the operation on array without any alteration
+6.after return to the main function deallocate array memory
+leave main... 
+STOP
+
+In any question all the above steps are exactly same, Just we have to add the logic inside step5.
+*/

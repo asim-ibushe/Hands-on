@@ -1,0 +1,10 @@
+/*
+        lseek(fd,offset,Position)
+Parameters :
+1 : File descriptor
+2 : Offset (Positive / negative)
+3 :     SEEK_SET    -> From staring positioon of file
+         SEEK_CUR   -> From current position of file
+         SEEK_END   -> From the ened of file
+
+ */

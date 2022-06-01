@@ -1,0 +1,11 @@
+/*
+Ken Thomson
+ASCII(1 Byte)
+Unicode(2 Byte)
+Problem on Strings:
+1.In this topic we have to deal with the strings.
+2.String in C & cpp is considered as array of characters ends with \0.
+3.In case of ascii the string length is equal to the no of characters + 1.
+4.In ascii encoding system size of each character is considered as 1 Byte(8 Bits).
+*/
+

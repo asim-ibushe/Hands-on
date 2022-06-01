@@ -1,0 +1,13 @@
+Complexity of an Algorithm-
+	There are two types of complexity as
+1.Time complexity
+2.Space complexity
+These two are considered as an important factor for the commercial programming.
+Time complexity-	If our application contains the iteration(loops) then we can calculate the time complexity.
+As a programmer our target is to reduce the time complexity
+If input of our function is five thousand and if our function contains a loop which iterates for 5000 times then the time complexity of that function is O(N)
+If we accept 5000 as an input and our loop iterates for 2500 times then the time complexity is O(N/2)
+
+Space complexity-	space complexity of a program is purely depends on the dynamic memory allocation used in our program.
+By using dynamic memory allocation ,we try to reduce space complexity of our program.
+

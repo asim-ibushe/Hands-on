@@ -1,0 +1,55 @@
+Linked List:
+#There are two types of link list as 
+-Singly link list
+-Doubly link list
+This two types of link list are again classified into two parts as:
+-Linear link list
+-Circular link list
+#Tree Diagram:
+               Linked List
+       	Singly  	   Doubly
+  linear    circular	linear    circular
+
+#Singly Linear Linked List
+consider structure of Node and LL
+
+#Rules for Data Structures
+1.All memory allocations should be dynamic.[malloc()]
+2.Inside main function we have to maintain one pointer throughout the application.[First]
+3.Memory for the node should be allocated & deallocated inside the helper functions.
+4.If the function is going to modify the link list then, we have to pass address of First pointer.[call by reference]
+5.If the function is not going to modify the link list then, pass the pointer itself.[call by value]
+6.If our function accepts address of first pointer then for traversal purpose use the temporary pointer,
+otherwise it affect the value of Head pointer from the main function.
+
+Capital node is considered as another name for struct node.
+typedef struct node* PNODE :-PNODE is considered as another name for struct node*.
+typedef struct node** PPNODE :-PPNODE is considered as typedef for struct node**.
+
+obj.data=0
+&obj=100
+p->data=0
+p->next=NULL
+&p=200
+q=200
+&q=300
+
+obj is like a structure that we allocate dynamically
+p is like a pointer that we maintain inside main function[First]
+q is like a parameter for the function[Head inside helper]
+
+
+##DOUBLY LINEAR LINKED LIST
+In this type of link list we have to maintain 2 pointers .one pointer points to next node & another pointer points to the previous node.
+For this purpose we have to update our structure in such a way that we can hold both the addresses.
+
+
+###
+Difference between call by value & call by address in case of linked list.
+
+*Doubly Circular Linked List:
+In case of circular LL we can travel the link list in rotational/circular way.
+In a circular LL we have to maintain two pointers as first & last where first pointer holds the address of first node & last pointer holds the address of last node.
+In case of circular link list all the pointers are connected with any of the specific node.
+
+
