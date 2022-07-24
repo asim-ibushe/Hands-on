@@ -240,3 +240,36 @@ str++;
 }
 return iCnt;
 }
+
+////
+void capitalize(char *str)
+{
+while(*str!='\0')
+{
+if((*str>='a') && (*str<='z'))
+{
+*str-=32;
+break;
+}
+str++;
+}
+}
+
+///
+void title(char *str)
+{
+int flag=0;
+while(*str!='\0')
+{
+if((*str>='a') && (*str<='z') && flag==0)
+{
+*str-=32;
+flag=1;
+}
+if(*str==' ')
+{
+flag=0;
+}
+str++;
+}
+}

@@ -15,3 +15,5 @@ void strRevX(char *str);
 void strcpyX(char *src,char *dest);
 void strconcatX(char *str1,char *str2);
 int str_digitCnt(char *str);
+void capitalize(char*);
+void title(char*);
